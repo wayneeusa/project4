@@ -160,6 +160,7 @@ public class BSTreeSetTester <K extends Comparable<K>> implements SetTesterADT<K
 	 */
 	private BSTNode<K> sortedArrayToBST(K[] keys, int start, int stop) {
 		//TODO
+		//small change
 		System.out.println("Starting: Sorted Array");
 		if(start == stop){
 			//System.out.println("161 rebalance");
